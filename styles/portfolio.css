@@ -29,6 +29,10 @@ h2 {
   font-size: 64px;
 }
 
+h3 {
+  font-size: 48px;
+}
+
 p {
   color: black;
   font-weight: normal;
@@ -36,13 +40,10 @@ p {
   line-height: 30px;
 }
 
-a {
-  color: #272142;
-}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -61,7 +62,7 @@ a {
 }
 
 .content-container {
-  padding: 100px 20px;
+  padding: 60px 20px;
 }
 
 content {
@@ -120,6 +121,55 @@ content {
   line-height: 14px;
 }
 
+.links {
+  color: var(--branding-color);
+  transition: all 105ms ease-in-out;
+}
+
+.links:hover {
+  color: #272142;
+}
+
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #272142;
+  font-size: 24px;
+  text-align: center;
+  transition: all 150ms ease-in-out;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -134,8 +184,8 @@ content {
     font-size: 44px;
   }
 
-  .hero {
-    padding: 80px 20px;
+  h4 {
+    font-size: 18px;
   }
 
   .content-container {
